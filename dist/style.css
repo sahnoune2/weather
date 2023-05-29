@@ -1,0 +1,27 @@
+.container {
+  border: 1px solid red;
+  height: 100vw;
+}
+body {
+  margin: 0px;
+}
+/* top side  */
+.top {
+  display: grid;
+  height: 65%;
+  border: 1px solid blue;
+  grid-template-columns: 2fr 1fr;
+}
+
+.left {
+  border: 1px solid black;
+}
+
+.right {
+  border: 1px solid pink;
+}
+/* bottom side */
+.bottom {
+  border: 1px solid green;
+  height: 35%;
+}
