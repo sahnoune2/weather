@@ -1,1 +1,1 @@
-!async function(){const c=await fetch("https://api.weatherapi.com/v1/current.json?key=368c7599fc6f406c969214743232405&q=london");console.log(c.json())}();
+!async function(){try{const o=await fetch("https://api.weatherapi.com/v1/current.json?key=368c7599fc6f406c969214743232405&q=london"),c=await o.json();if(!o.ok)throw new Error("fuck u bitches");console.log(c)}catch(o){console.log(o)}}();

@@ -15,6 +15,22 @@ body {
 
 .left {
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.weather {
+  border: 1px solid black;
+}
+.location {
+  border: 1px solid black;
+}
+.temperature {
+  border: 1px solid black;
+}
+.time {
+  border: 1px solid black;
 }
 
 .right {
