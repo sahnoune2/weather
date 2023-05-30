@@ -29,6 +29,10 @@ body {
 .temperature {
   border: 1px solid black;
 }
+.toggle {
+  display: flex;
+  justify-content: space-between;
+}
 .time {
   border: 1px solid black;
 }
